@@ -1,0 +1,452 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2021-07-11 dom 23:16 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Universe-416ZK</title>
+<meta name="author" content="Mundfaristoj, with help from the GPT-J" />
+<meta name="generator" content="Org Mode" />
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 3px #eee;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+    padding-top: 1.2em;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: -10px;
+    right: 10px;
+    padding: 3px;
+    border: 1px solid black;
+  }
+  pre.src:hover:before { display: inline; margin-top: 14px;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { width: 90%; }
+  /*]]>*/-->
+</style>
+<style type="text/css">body {background-color: #4c566a; color: #d8dee9; max-width: 1000px; margin: auto;} a{color: #e5e9f0}</style>
+<style>*{font-family: Arimo, Regular; font-size: 20px !important}</style>
+<style>:is(h1) {font-family: Arimo, Regular; font-size: 25px !important}</style>
+<style>:is(h2, h3) {font-family: Arimo, Regular; font-size: 23px !important}</style>
+<script type="text/javascript">
+// @license magnet:?xt=urn:btih:e95b018ef3580986a04669f1b5879592219e2a7a&dn=public-domain.txt Public Domain
+<!--/*--><![CDATA[/*><!--*/
+     function CodeHighlightOn(elem, id)
+     {
+       var target = document.getElementById(id);
+       if(null != target) {
+         elem.classList.add("code-highlighted");
+         target.classList.add("code-highlighted");
+       }
+     }
+     function CodeHighlightOff(elem, id)
+     {
+       var target = document.getElementById(id);
+       if(null != target) {
+         elem.classList.remove("code-highlighted");
+         target.classList.remove("code-highlighted");
+       }
+     }
+    /*]]>*///-->
+// @license-end
+</script>
+</head>
+<body>
+<div id="content">
+<h1 class="title">Universe-416ZK</h1>
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#orgdfbff82"><span class="underline">Introduction</span></a>
+<ul>
+<li><a href="#orgb7e8517">What is this &ldquo;worldbuilding&rdquo; thing you&rsquo;re talking about?</a></li>
+<li><a href="#orgeeae178">Okay, what&rsquo;s your idea then?</a></li>
+<li><a href="#org7638ae7">Who are &ldquo;the creators&rdquo;?</a></li>
+</ul>
+</li>
+<li><a href="#orgfe9943c"><span class="underline">Info</span></a>
+<ul>
+<li><a href="#org29863fb">Species</a></li>
+<li><a href="#orgb22feb3"><span class="todo TODO">TODO</span> Geography</a></li>
+<li><a href="#org2a449c0"><span class="todo TODO">TODO</span> Culture</a></li>
+<li><a href="#orgd2ad82a">Some Stories</a></li>
+<li><a href="#org365bf20">Some Trivia (We will probably expand on this later on)</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orgdfbff82" class="outline-2">
+<h2 id="orgdfbff82"><span class="underline">Introduction</span></h2>
+<div class="outline-text-2" id="text-orgdfbff82">
+</div>
+<div id="outline-container-orgb7e8517" class="outline-3">
+<h3 id="orgb7e8517">What is this &ldquo;worldbuilding&rdquo; thing you&rsquo;re talking about?</h3>
+<div class="outline-text-3" id="text-orgb7e8517">
+<p>
+Acording to <a href="https://www.fandomspot.com/worldbuilding/">FandomSpot.com</a>, worldbuilding is
+</p>
+<blockquote>
+<p>
+&ldquo;the process of creating entire fantasy worlds from scratch, all while considering the logistics of these worlds to make them as believable as possible. Worldbuilding asks questions about the setting of a world, and then answers them, often in great detail.
+Think of all the media you enjoy. Games. Movies. Television. Novels.
+Most of them probably have a story.
+If you get a bit more technical, those stories all take place somewhere. Literature teachers would call that the setting.
+I think of that place as a “world” for each piece of creative work. So worldbuilding is really just the process of making those worlds.&rdquo;
+</p>
+</blockquote>
+</div>
+</div>
+
+<div id="outline-container-orgeeae178" class="outline-3">
+<h3 id="orgeeae178">Okay, what&rsquo;s your idea then?</h3>
+<div class="outline-text-3" id="text-orgeeae178">
+<p>
+Well&#x2026;
+    Welcome to the Universe-419ZK World Building Project! This project is based on a fictional setting called the Universe-419ZK (not actually an abbreviation) which will eventually become a universe. It&rsquo;s designed to be a sandbox environment, where the creators can make up their own worlds as they go, without having to worry about &ldquo;canon&rdquo; at all! (<i>we&rsquo;ll try to make it good</i>) This document/page is for posting the rules, laws, ideas, or anything else related to this universe. Feel free to post your suggestions in the <a href="https://discord.gg/4UKUF78REF">Discord Server</a>, but keep in mind, it&rsquo;ll be up to the project&rsquo;s creators to decide what gets added to the universe.
+</p>
+
+<p>
+<i>thanks to <a href="https://bellard.org/textsynth/">GPT-J</a> for giving us an introduction.</i>
+</p>
+</div>
+</div>
+
+<div id="outline-container-org7638ae7" class="outline-3">
+<h3 id="org7638ae7">Who are &ldquo;the creators&rdquo;?</h3>
+<div class="outline-text-3" id="text-org7638ae7">
+<p>
+We&rsquo;re just some friends trying to worldbuild, we&rsquo;re slow at it though.
+</p>
+</div>
+</div>
+</div>
+
+
+<div id="outline-container-orgfe9943c" class="outline-2">
+<h2 id="orgfe9943c"><span class="underline">Info</span></h2>
+<div class="outline-text-2" id="text-orgfe9943c">
+</div>
+<div id="outline-container-org29863fb" class="outline-3">
+<h3 id="org29863fb">Species</h3>
+<div class="outline-text-3" id="text-org29863fb">
+</div>
+<div id="outline-container-org99277b6" class="outline-4">
+<h4 id="org99277b6">Aurun&rsquo;s Dogs</h4>
+<div class="outline-text-4" id="text-org99277b6">
+<p>
+Aurun&rsquo;s Dogs or Aurunies for short.  They&rsquo;re similar to dogs in appearance but an intelligent species and can talk.  They&rsquo;re solitary and rarely group.  Aurun is the place where they were first discovered and that&rsquo;s where the majority of them reside.  The name of the species the Aurunies have for themselves is the Naaru, which is both plural and singular.
+Aurunies are pretty serious and rarely speak.  When they do, whatever they say is going to be something pretty important.  Once in a few generations you get a jokester but they&rsquo;re far and few in that community.  Aurunies prefer to keep to themselves and thus have much disdain for other races.
+Depending on which part of Aurun they inhabit, some are long haired and others are short haired.  Adult size is the same size as a border collie.
+</p>
+
+<p>
+<img src="./assets/southern auruns dogs.jpg" alt="southern auruns dogs.jpg" /><img src="./assets/northern auruns dogs.JPG" alt="northern auruns dogs.JPG" />
+Southern and northern Aurun&rsquo;s dogs.
+</p>
+</div>
+</div>
+<div id="outline-container-org1c286cc" class="outline-4">
+<h4 id="org1c286cc">Rock men</h4>
+<div class="outline-text-4" id="text-org1c286cc">
+<p>
+Structurally similar to humans, althought made out of rock.
+They have incredible strenght and can survive with no food nor water for extended periods of time, as well as having insane resistence. They can survive for up to 3 days without food.
+They are vitually immune to the effect of &ldquo;Tired&rdquo;.
+If they die, they will fall back down into their original form and become a normal pile of rocks again.
+They weigh around 400 pounds, stand 7 feet tall, and look like a brownish gray rock.
+They&rsquo;re known to live for over 200 years, although the limit is unknown. A good example of this is the case of a rock man that lived 429 years.
+Their digestive system makes them invulnerable to any known poison.
+They are believed to have no emotions at all.
+They live in small societies, and tend to have a society of men and one of women, regularly meeting.
+</p>
+</div>
+
+
+<ul class="org-ul">
+<li><a id="orgb07dcc7"></a>There are some variations of this species:<br />
+<div class="outline-text-5" id="text-orgb07dcc7">
+<ul class="org-ul">
+<li>Lava men: They look like rock men, only bigger, taller, and can run faster than normal rock men.</li>
+<li>Mountain rock men: Made from minerals and metals, they are slightly weaker than rock men, and can run on top of earth and stone for some distance, but aren&rsquo;t as strong. They are immune to fire, lava and can withstand temperatures way over 5000C.</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+
+<div id="outline-container-orgaefffe3" class="outline-4">
+<h4 id="orgaefffe3">Gestalts:</h4>
+<div class="outline-text-4" id="text-orgaefffe3">
+<p>
+Gestalts are usually shorter than the average human. Their bodies are very muscular and they tend to move with a loping gait. Many of them have a large, round head with enormous almond shaped eyes. Their skin is tinged with shades of red and sometimes blue.
+The most common of which are the red/pink hair, but other gestalts have green, white and black hair among others.
+Their bodies are formed from a special mineral, and so they can survive in air, water, and on dry land.
+Their emotions are raw, intense and sometimes violent.
+Gestalts are very tribal and have a great sense of loyalty to their people. They live in clans and tribes and they usually follow some sort of leader.
+Gestalts are the hardest hitting race in the world, being able to defeat anything from the lightest creature to the strongest humans.
+Gestalts hate humans, they have expressed in numerous ocasions that they want the world to be theirs.
+Gestalts are known for being a very difficult race to kill, making them an even greater threat.
+</p>
+</div>
+
+<ul class="org-ul">
+<li><a id="orgfccb6a5"></a>Deformities<br />
+<div class="outline-text-5" id="text-orgfccb6a5">
+<p>
+Gestalts typically have one of two different types of common deformities:
+</p>
+<ul class="org-ul">
+<li>Head deformities:
+One common head deformity is a single horn protruding from the front of their head. However, the horn can vary greatly. This can be any type of horn, from simple hair-like frills to large spikes that grow from the center of the head. These horns generally do not make the Gestalt look any less intimidating. In fact, it makes them appear larger, and more intimidating.</li>
+
+<li>Face deformities:
+The other common head deformity is a large round nose. The nose can vary from wide and large to small and narrow. Like head horns, the nose horns make the Gestalt look larger and more intimidating, but this time it is due to the nose&rsquo;s size. These noses can appear to be the same size as the horns, or much larger.</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</div>
+
+
+<div id="outline-container-orgb22feb3" class="outline-3">
+<h3 id="orgb22feb3"><span class="todo TODO">TODO</span> Geography</h3>
+</div>
+<div id="outline-container-org2a449c0" class="outline-3">
+<h3 id="org2a449c0"><span class="todo TODO">TODO</span> Culture</h3>
+</div>
+<div id="outline-container-orgd2ad82a" class="outline-3">
+<h3 id="orgd2ad82a">Some Stories</h3>
+<div class="outline-text-3" id="text-orgd2ad82a">
+</div>
+<div id="outline-container-org7d8862a" class="outline-4">
+<h4 id="org7d8862a">The Wandering Ghosts of Minstrade:</h4>
+<div class="outline-text-4" id="text-org7d8862a">
+<blockquote>
+<p>
+Damn those specters.  Always floating about and wailing, ever so lost.  I despise going through Minstrade because of them.  Most of the time, ghosts only appear to their relatives but I&rsquo;ve got the rather unfortunate ability to speak and interact with every ghost on this planet. Sometimes they&rsquo;re helpful and sometimes they&rsquo;re just a plain nuisance and they know it.  Recently, I had to deal with a lost Sijkh princess calling for her mummy.  Poor girl.  She got herself lost and like numerous before her, died before anyone could ever find her.  She was only around 7 years old.  For some reason, Minstrade seems to be the mecca for every ghost.
+</p>
+
+<p>
+Every ghost just feels compelled to go there but nobody ever knows why.  Once they reach ghosthood, they eventually find their way to Minstrade, sight see, then return to where they came from or simply stay there.  There aren&rsquo;t any legends surrounding Minstrade, or at least none to explain why there&rsquo;s an abundance of ghosts there.  There are simply many ghost stories hanging around that place.
+</p>
+</blockquote>
+<p>
+<i>Transcribed from the journal of explorer Isakov, date unknown</i>
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgbae0d27" class="outline-4">
+<h4 id="orgbae0d27">Misterious recording</h4>
+<div class="outline-text-4" id="text-orgbae0d27">
+<blockquote>
+<p>
+<b>crackle</b>&#x2026; <b>static</b>&#x2026; <b>beep</b>
+<b>thump&#x2026; thump&#x2026; thump&#x2026; CRASH</b>
+<b>huff puff gasp</b>
+&ldquo;RUN! No Emily, DON&rsquo;T look back! I&rsquo;ll be okay&#x2026; I PROMISE&#x2026; I WILL be waiting for you in the <b>bzzz</b> back home!&rdquo;
+&ldquo;No, I <b>crzzzz</b> I can&rsquo;t leave without you by <b>bzz</b> I have to <b>bzz</b>&rdquo;
+<b>groaning&#x2026; creaking&#x2026; stomp</b>
+&ldquo;Don&rsquo;t worry, I will be fine, we made this shelter out of <b>zzzz</b> I&rsquo;ll hide, it can&rsquo;t see me, but THEY CAN DEFINITELY <b>crzzzz</b>
+&rdquo;I will be back for you&#x2026; I will come back with <b>bzzzz</b> to help you&#x2026; DON&rsquo;T GIVE UP, WE&rsquo;LL COME BACK!&ldquo;
+<b>whispers as the thumps get louder</b>
+&rdquo;I know you&rsquo;ll be back&#x2026; but I&rsquo;m sorry, I should&rsquo;ve told you from the start that I&rsquo;m <b>beeeeeeeeeeep</b>&ldquo;
+<b>crackle</b>&#x2026; <b>static</b>
+</p>
+</blockquote>
+<p>
+<i>from a mysterious sharp device emitting sound</i>
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org365bf20" class="outline-3">
+<h3 id="org365bf20">Some Trivia (We will probably expand on this later on)</h3>
+<div class="outline-text-3" id="text-org365bf20">
+<ul class="org-ul">
+<li>There are some places where inteligent species haven&rsquo;t gone yet because of dangers.</li>
+<li>Scientists at some point figured out how to change the gender of a fetus using vegetable extract.</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="author">Author: Mundfaristoj, with help from the GPT-J</p>
+<p class="date">Created: 2021-07-11 dom 23:16</p>
+</div>
+</body>
+</html>

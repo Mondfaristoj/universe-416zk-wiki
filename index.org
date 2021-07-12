@@ -1,0 +1,104 @@
+#+TITLE: Universe-416ZK
+#+HTML_HEAD: <style type="text/css">body {background-color: #4c566a; color: #d8dee9; max-width: 1000px; margin: auto;} a{color: #e5e9f0}</style>
+#+HTML_HEAD_EXTRA: <style>*{font-family: Arimo, Regular; font-size: 20px !important}</style>
+#+HTML_HEAD_EXTRA: <style>:is(h1) {font-family: Arimo, Regular; font-size: 25px !important}</style>
+#+HTML_HEAD_EXTRA: <style>:is(h2, h3) {font-family: Arimo, Regular; font-size: 23px !important}</style>
+#+OPTIONS: toc:2
+#+OPTIONS: num:nil
+#+OPTIONS: f:nil
+#+AUTHOR: Mundfaristoj, with help from the GPT-J
+
+* _Introduction_
+** What is this "worldbuilding" thing you're talking about?
+Acording to [[https://www.fandomspot.com/worldbuilding/][FandomSpot.com]], worldbuilding is
+#+BEGIN_QUOTE
+"the process of creating entire fantasy worlds from scratch, all while considering the logistics of these worlds to make them as believable as possible. Worldbuilding asks questions about the setting of a world, and then answers them, often in great detail.
+Think of all the media you enjoy. Games. Movies. Television. Novels.
+Most of them probably have a story.
+If you get a bit more technical, those stories all take place somewhere. Literature teachers would call that the setting.
+I think of that place as a “world” for each piece of creative work. So worldbuilding is really just the process of making those worlds."
+#+END_QUOTE
+
+** Okay, what's your idea then?
+Well...
+    Welcome to the Universe-419ZK World Building Project! This project is based on a fictional setting called the Universe-419ZK (not actually an abbreviation) which will eventually become a universe. It's designed to be a sandbox environment, where the creators can make up their own worlds as they go, without having to worry about "canon" at all! (/we'll try to make it good/) This document/page is for posting the rules, laws, ideas, or anything else related to this universe. Feel free to post your suggestions in the [[https://discord.gg/4UKUF78REF][Discord Server]], but keep in mind, it'll be up to the project's creators to decide what gets added to the universe.
+
+    /thanks to [[https://bellard.org/textsynth/][GPT-J]] for giving us an introduction./
+
+** Who are "the creators"?
+We're just some friends trying to worldbuild, we're slow at it though.
+
+
+* _Info_
+** Species
+*** Aurun's Dogs
+Aurun's Dogs or Aurunies for short.  They're similar to dogs in appearance but an intelligent species and can talk.  They're solitary and rarely group.  Aurun is the place where they were first discovered and that's where the majority of them reside.  The name of the species the Aurunies have for themselves is the Naaru, which is both plural and singular.
+Aurunies are pretty serious and rarely speak.  When they do, whatever they say is going to be something pretty important.  Once in a few generations you get a jokester but they're far and few in that community.  Aurunies prefer to keep to themselves and thus have much disdain for other races.
+Depending on which part of Aurun they inhabit, some are long haired and others are short haired.  Adult size is the same size as a border collie.
+
+[[./assets/southern auruns dogs.jpg]][[./assets/northern auruns dogs.JPG]]
+Southern and northern Aurun's dogs.
+*** Rock men
+Structurally similar to humans, althought made out of rock.
+They have incredible strenght and can survive with no food nor water for extended periods of time, as well as having insane resistence. They can survive for up to 3 days without food.
+They are vitually immune to the effect of "Tired".
+If they die, they will fall back down into their original form and become a normal pile of rocks again.
+They weigh around 400 pounds, stand 7 feet tall, and look like a brownish gray rock.
+They're known to live for over 200 years, although the limit is unknown. A good example of this is the case of a rock man that lived 429 years.
+Their digestive system makes them invulnerable to any known poison.
+They are believed to have no emotions at all.
+They live in small societies, and tend to have a society of men and one of women, regularly meeting.
+
+
+**** There are some variations of this species:
+- Lava men: They look like rock men, only bigger, taller, and can run faster than normal rock men.
+- Mountain rock men: Made from minerals and metals, they are slightly weaker than rock men, and can run on top of earth and stone for some distance, but aren't as strong. They are immune to fire, lava and can withstand temperatures way over 5000C.
+
+*** Gestalts:
+Gestalts are usually shorter than the average human. Their bodies are very muscular and they tend to move with a loping gait. Many of them have a large, round head with enormous almond shaped eyes. Their skin is tinged with shades of red and sometimes blue.
+The most common of which are the red/pink hair, but other gestalts have green, white and black hair among others.
+Their bodies are formed from a special mineral, and so they can survive in air, water, and on dry land.
+Their emotions are raw, intense and sometimes violent.
+Gestalts are very tribal and have a great sense of loyalty to their people. They live in clans and tribes and they usually follow some sort of leader.
+Gestalts are the hardest hitting race in the world, being able to defeat anything from the lightest creature to the strongest humans.
+Gestalts hate humans, they have expressed in numerous ocasions that they want the world to be theirs.
+Gestalts are known for being a very difficult race to kill, making them an even greater threat.
+
+**** Deformities
+Gestalts typically have one of two different types of common deformities:
+ - Head deformities:
+    One common head deformity is a single horn protruding from the front of their head. However, the horn can vary greatly. This can be any type of horn, from simple hair-like frills to large spikes that grow from the center of the head. These horns generally do not make the Gestalt look any less intimidating. In fact, it makes them appear larger, and more intimidating.
+
+ - Face deformities:
+     The other common head deformity is a large round nose. The nose can vary from wide and large to small and narrow. Like head horns, the nose horns make the Gestalt look larger and more intimidating, but this time it is due to the nose's size. These noses can appear to be the same size as the horns, or much larger.
+
+
+** TODO Geography
+** TODO Culture
+** Some Stories
+*** The Wandering Ghosts of Minstrade:
+#+BEGIN_QUOTE
+Damn those specters.  Always floating about and wailing, ever so lost.  I despise going through Minstrade because of them.  Most of the time, ghosts only appear to their relatives but I've got the rather unfortunate ability to speak and interact with every ghost on this planet. Sometimes they're helpful and sometimes they're just a plain nuisance and they know it.  Recently, I had to deal with a lost Sijkh princess calling for her mummy.  Poor girl.  She got herself lost and like numerous before her, died before anyone could ever find her.  She was only around 7 years old.  For some reason, Minstrade seems to be the mecca for every ghost.
+
+Every ghost just feels compelled to go there but nobody ever knows why.  Once they reach ghosthood, they eventually find their way to Minstrade, sight see, then return to where they came from or simply stay there.  There aren't any legends surrounding Minstrade, or at least none to explain why there's an abundance of ghosts there.  There are simply many ghost stories hanging around that place.
+#+END_QUOTE
+/Transcribed from the journal of explorer Isakov, date unknown/
+
+*** Misterious recording
+#+BEGIN_QUOTE
+*crackle*... *static*... *beep*
+*thump... thump... thump... CRASH*
+*huff puff gasp*
+"RUN! No Emily, DON'T look back! I'll be okay... I PROMISE... I WILL be waiting for you in the *bzzz* back home!"
+"No, I *crzzzz* I can't leave without you by *bzz* I have to *bzz*"
+*groaning... creaking... stomp*
+"Don't worry, I will be fine, we made this shelter out of *zzzz* I'll hide, it can't see me, but THEY CAN DEFINITELY *crzzzz*
+"I will be back for you... I will come back with *bzzzz* to help you... DON'T GIVE UP, WE'LL COME BACK!"
+*whispers as the thumps get louder*
+"I know you'll be back... but I'm sorry, I should've told you from the start that I'm *beeeeeeeeeeep*"
+*crackle*... *static*
+#+END_QUOTE
+/from a mysterious sharp device emitting sound/
+** Some Trivia (We will probably expand on this later on)
+- There are some places where inteligent species haven't gone yet because of dangers.
+- Scientists at some point figured out how to change the gender of a fetus using vegetable extract.
