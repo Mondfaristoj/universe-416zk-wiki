@@ -26,7 +26,7 @@ Well...
     /thanks to [[https://bellard.org/textsynth/][GPT-J]] for giving us an introduction./
 
 ** Who are "the creators"?
-We're just some friends trying to worldbuild, we're slow at it though.
+We're just some friends trying to worldbuild, we're slow at it though, so we could use some help!
 
 
 * _Info_
@@ -40,7 +40,7 @@ Depending on which part of Aurun they inhabit, some are long haired and others a
 Southern and northern Aurun's dogs.
 *** Rock men
 Structurally similar to humans, althought made out of rock.
-They have incredible strenght and can survive with no food nor water for extended periods of time, as well as having insane resistence. They can survive for up to 3 days without food.
+They have incredible strength and can survive with no food nor water for extended periods of time, as well as having insane resistence. They can survive for up to 3 days without food.
 They are vitually immune to the effect of "Tired".
 If they die, they will fall back down into their original form and become a normal pile of rocks again.
 They weigh around 400 pounds, stand 7 feet tall, and look like a brownish gray rock.
