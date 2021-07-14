@@ -51,8 +51,10 @@ They live in small societies, and tend to have a society of men and one of women
 
 
 **** There are some variations of this species:
-- Lava men: They look like rock men, only bigger, taller, and can run faster than normal rock men.
-- Mountain rock men: Made from minerals and metals, they are slightly weaker than rock men, and can run on top of earth and stone for some distance, but aren't as strong. They are immune to fire, lava and can withstand temperatures way over 5000C.
++ Lava men: They look like rock men, only bigger, taller, and can run faster than normal rock men.
++ Mountain rock men: Made from minerals and metals, they are slightly weaker than rock men, and can run on top of earth and stone for some distance, but aren't as strong. They are immune to fire, lava and can withstand temperatures way over 5000°C.
+
+Also read: Titans
 
 *** Gestalts:
 Gestalts are usually shorter than the average human. Their bodies are very muscular and they tend to move with a loping gait. Many of them have a large, round head with enormous almond shaped eyes. Their skin is tinged with shades of red and sometimes blue.
@@ -66,15 +68,27 @@ Gestalts are known for being a very difficult race to kill, making them an even 
 
 **** Deformities
 Gestalts typically have one of two different types of common deformities:
- - Head deformities:
+ + Head deformities:
     One common head deformity is a single horn protruding from the front of their head. However, the horn can vary greatly. This can be any type of horn, from simple hair-like frills to large spikes that grow from the center of the head. These horns generally do not make the Gestalt look any less intimidating. In fact, it makes them appear larger, and more intimidating.
 
- - Face deformities:
+ + Face deformities:
      The other common head deformity is a large round nose. The nose can vary from wide and large to small and narrow. Like head horns, the nose horns make the Gestalt look larger and more intimidating, but this time it is due to the nose's size. These noses can appear to be the same size as the horns, or much larger.
+
+*** Titans
+They share a lot of similarities with rock men, although much bigger in size, reaching 40-50 meters tall.
+They live underwater, and very few direct observations of them exist.
+They are the inspiration for the [[*The world origin, acording to the Titanic Titans][Titanic Titans]]
 
 
 ** TODO Geography
-** TODO Culture
+** Culture
+*** World Origins
+The Titanic Titans are mythical creatures, theorized to have made the world as we know it, and they could be found at the bottom of the ocean. These creatures have had countless lives and can regenerate the world every 10,000 years. Their name is a reference to Titans, creatures that have existed before human beings, and they are considered the oldest life on the planet. They have been living in the oceans for the last 10,000 years and have evolved over time.
+Their size is huge, ranging between 100 and 120 meters tall.
+
+You can read about the legend [[*The world origin, acording to the Titanic Titans][here]].
+
+
 ** Some Stories
 *** The Wandering Ghosts of Minstrade:
 #+BEGIN_QUOTE
@@ -99,6 +113,18 @@ Every ghost just feels compelled to go there but nobody ever knows why.  Once th
 *crackle*... *static*
 #+END_QUOTE
 /from a mysterious sharp device emitting sound/
+
+*** The world origin, acording to the Titanic Titans
+:PROPERTIES:
+:ID:       3aada30a-51e9-4af5-97a2-af9bddcca481
+:END:
+#+BEGIN_QUOTE
+Before the 10,000-year cycle began, Titans lived in the world for thousands of years, and the world itself was in a dark state. There were three Titans, Varda, Verne, and Zaur, who decided to save the world and create an era of peace for the planet. As a result of their efforts, the world became a paradise for humans, and the oceans are the perfect environment for Titans. However, as the cycle started, the Titans lived for just 10,000 years, and humans are once again in danger. Each time a Titan dies, the world changes.
+
+They have been said to live in the oceans, but their exact location is unknown. At the beginning of the 10,000-year cycle, each Titan lived for 3,000 years, but later on, a Titan's life is only for 10,000 years. Each Titan is said to die once every 10,000 years. If a Titan dies, the world changes into a new era for humans.
+#+END_QUOTE
+/traditional legend/
+
 ** Some Trivia (We will probably expand on this later on)
-- There are some places where inteligent species haven't gone yet because of dangers.
-- Scientists at some point figured out how to change the gender of a fetus using vegetable extract.
++ There are some places where inteligent species haven't gone yet because of dangers.
++ Scientists at some point figured out how to change the gender of a fetus using vegetable extract.
